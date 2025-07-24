@@ -24,11 +24,11 @@ export const MainContent = () => {
       </p>
 
       <button
-        className="bg-gradient-to-r from-green-500 to-emerald-600 hover:from-green-400
+        className="flex items-center bg-gradient-to-r from-green-500 to-emerald-600 hover:from-green-400
         hover:to-emerald-500 text-white font-semibold py-2 px-6 rounded-full shadow-xl
         hover:shadow-2xl transform hover:scale-105 transition-all duration-300 ease-in-out w-auto"
       >
-        <SiGithub />
+        <SiGithub className="inline mr-2" />
         Ver Projetos
       </button>
 
