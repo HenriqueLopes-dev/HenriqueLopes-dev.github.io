@@ -7,6 +7,7 @@ import {
   SiMysql,
   SiDocker,
   SiGit,
+  SiGithub,
 } from "react-icons/si";
 import { FaLinux } from "react-icons/fa";
 import { Techs } from "./Techs";
@@ -25,8 +26,9 @@ export const MainContent = () => {
       <button
         className="bg-gradient-to-r from-green-500 to-emerald-600 hover:from-green-400
         hover:to-emerald-500 text-white font-semibold py-2 px-6 rounded-full shadow-xl
-        hover:shadow-2xl transform hover:scale-105 transition-all duration-300 ease-in-out"
+        hover:shadow-2xl transform hover:scale-105 transition-all duration-300 ease-in-out w-auto"
       >
+        <SiGithub />
         Ver Projetos
       </button>
 
