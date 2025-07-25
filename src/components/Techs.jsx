@@ -53,6 +53,7 @@ export const Techs = () => {
     { imp: SiGithub, title: "Github", color: "text-white" },
     { imp: SiDocker, title: "Docker", color: "text-blue-500" },
     { imp: SiPostman, title: "Postman", color: "text-orange-500" },
+    { imp: FaLinux, title: "Linux", color: "text-gray-400" },
   ];
 
   return (

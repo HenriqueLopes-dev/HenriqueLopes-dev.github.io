@@ -1,4 +1,3 @@
-import React from "react";
 import {
   SiHtml5,
   SiCss3,
@@ -20,8 +19,14 @@ export const MainContent = () => {
       <h2 className="text-green-400 text-2xl mb-4">Desenvolvedor Back-end</h2>
 
       <p className="text-gray-300 mb-6">
-        Prazer, sou estudante de ciência da computação ingressado na PUC Minas,
-        atualmente estou no sexto período...
+        Desenvolvedor de software desde 2023, com 1 ano de estudos focados em
+        desenvolvimento Back-end Java. Estudante de Ciência da computação
+        ingressado na PUC Minas, atualmente estou no sexto período. Tenho
+        experiência prática no ecossistema Spring (Spring Boot, Spring Data,
+        Spring Security), construção de APIs RESTful, integração com bancos de
+        dados (MySQL, PostgreSQL, MongoDB), cache com Redis e conteinerização
+        com Docker. Busco minha primeira oportunidade profissional para aplicar
+        meus conhecimentos e contribuir com soluções robustas e escaláveis.
       </p>
 
       <a
@@ -37,7 +42,9 @@ export const MainContent = () => {
 
       <section className="mt-4">
         <h2 className="text-2xl font-bold mb-4">Meus conhecimentos:</h2>
-        <p className="text-gray-300 mb-6">Conheça as tecnologias que domino:</p>
+        <p className="text-gray-300 mb-6">
+          Conheça as tecnologias que conheço:
+        </p>
 
         <Techs />
       </section>

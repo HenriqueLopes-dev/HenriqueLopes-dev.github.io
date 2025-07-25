@@ -1,6 +1,5 @@
-import React from "react";
 import FotoProfile from "../assets/profile.jpeg";
-import { FaInstagram, FaLinkedin, FaEnvelope, FaPhone } from "react-icons/fa";
+import { FaLinkedin, FaEnvelope, FaPhone } from "react-icons/fa";
 
 export const Sidebar = () => {
   const linkedin = "https://www.linkedin.com/in/henrique-luiz-almeida-lopes";
